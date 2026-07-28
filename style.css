@@ -66,7 +66,7 @@ html{
 .left-stick {
     left: 15rem;
     box-shadow: 0.2rem 0 0.5rem #555;
-    animation: leftStickAnim2s infinite linear;
+    animation: leftStickAnim 2s infinite linear;
 }
 
 @keyframes leftStickAnim {
@@ -84,9 +84,8 @@ html{
 .right-stick {
     right: 15rem;
      box-shadow: -0.2rem 0 0.5rem #555;
-        animation: rightStickAnim2s infinite linear;
+        animation: rightStickAnim 2s infinite linear;
 }
-
 
 @keyframes rightStickAnim {
     0%, 30% {
